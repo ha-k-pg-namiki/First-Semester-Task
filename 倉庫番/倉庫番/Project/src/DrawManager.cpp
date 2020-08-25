@@ -160,6 +160,9 @@ void DrawPlayer( int x, int y, int dir, int animeNo )
 	※※　描画処理をコーディング
 	// まずは１つの画像を表示するだけを目指す
 	// 最終的に、向いている方向の画像でアニメーションしていれば最高
+	PlayerGraphHandle[x][y] = DrawGraph(x,y,PlayerGraphHandle,TRUE)
+
+
 }
 
 // ================================================================================
